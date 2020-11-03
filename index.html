@@ -10,17 +10,7 @@
     <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 
-<body>
-
-    <script>
-        // return random wallpaper
-        function wallpaper() {
-            return './Backgrounds/' + Math.floor(Math.random() * 46) + '.jpg';
-        }
-
-        console.log("url('" + wallpaper() + "')");
-        document.body.style.backgroundImage = "url('" + wallpaper() + "')";
-    </script>
+<body style="background-image: url('nyc.png');">
 
     <div id="search">
         <input id="search-field" type="text" name="search-field" onkeypress="return search(event)"/>
