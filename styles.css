@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-    background-size: 100% 100%;
+    background-size: fill;
+    background-repeat: no-repeat;
     margin: 0px;
 }
 
